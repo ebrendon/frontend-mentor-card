@@ -3,11 +3,50 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-
+        <title>Blog preview card | Frontent Mentor</title>
+        <link
+            rel="shortcut icon"
+            href="../build/assets/images/favicon-32x32.png"
+            type="image/x-icon"
+        />
         <link rel="stylesheet" href="../build/assets/css/output.css" />
     </head>
-    <body>
-        <h1 class="font-semibold">Teste</h1>
+    <body
+        class="flex justify-center items-center bg-[#F4D04E] h-screen w-screen"
+    >
+        <div
+            class="group container flex flex-col mx-4 space-y-6 w-100 h-125 bg-white border border-[#1E1E1E] p-6 rounded-2xl shadow-card-shadow cursor-pointer"
+        >
+            <div>
+                <img
+                    src="../build/assets/images/illustration-article.svg"
+                    alt="ilustration"
+                    class="rounded-xl w-100"
+                />
+            </div>
+
+            <div class="flex flex-col space-y-2">
+                <div class="bg-[#F4D04E] rounded-md max-w-fit py-1 px-3">
+                    <p class="font-bold">Learning</p>
+                </div>
+                <p class="font-medium text-sm">Published 21 Dec 2023</p>
+                <h2 class="font-extrabold text-2xl group-hover:text-[#F4D04E]">
+                    HTML & CSS foundations
+                </h2>
+                <p class="font-medium text-base text-[#7F7F7F]">
+                    These Languages are the backbone of every website, defining
+                    structure, content, and presentation.
+                </p>
+            </div>
+
+            <div class="flex items-center">
+                <img
+                    src="../build/assets/images/image-avatar.webp"
+                    alt="Avatar"
+                    class="w-8 h-8 rounded-full mr-4"
+                />
+                <p class="font-extrabold text-sm">Greg Hooper</p>
+            </div>
+        </div>
     </body>
 </html>
